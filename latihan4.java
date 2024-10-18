@@ -46,36 +46,26 @@ public class latihan4 {
     fahrenheit = input.nextDouble();
     return fahrenheit;
   }
-
-  // hitung rumus dari farenhait -> celsius
   private static double calculateCelcius(double fahrenheit) {
     double celcius;
     celcius = (fahrenheit - 32) * 5 / 9;
     return celcius;
   }
-
-  // Fungsi celsius
   private static double getCelsius() {
     double celsius;
     System.out.println("Enter celsius temperature:");
     celsius = input.nextDouble();
     return celsius;
   }
-
-   // rumus dari celsius -> farenheit
   private static double calculateFahrenheit(double celcius) {
     double fahrenheit;
     fahrenheit = (celcius * 9 / 5) + 32;
     return fahrenheit;
   }
-
-  // Hasil dari fahrenhait -> celcius
   private static void displayResult(double fahrenheit, double celcius) {
     System.out.println(fahrenheit + " Fahrenheit is " +
     celcius + " celcius");
   }
-
-  // Hasil dari celcius -> fahrenhet 
   private static void displayResult2(double celcius, double fahrenheit) {
     System.out.println(celcius + " celcius is " +
     fahrenheit + " fahrenheit");
